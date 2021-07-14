@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiAssist - 3rd Year</title>
+    <meta name="description" content="3rd Year Study Resources" />
+    <meta name="keywords" content="html, css, menu, responsive, mobile-friendly" />
+    <meta name="author" content="Purnima Lal" />
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="img/favicon_ti/favicon-16x16.png" type="image/x-icon" sizes="16x16" />
+    <link rel="shortcut icon" href="img/favicon_ti/favicon-32x32.png" type="image/x-icon" sizes="32x32" />
+    <!-- iOS 7 or prior (legacy) -->
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon_ti/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon_ti/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon_ti/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon_ti/apple-touch-icon-57x57.png"> t
+    <!-- iOS 8 and later -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_ti/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon_ti/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon_ti/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon_ti/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon_ti/apple-touch-icon-60x60.png">
+    <!-- launcher (Android/Chrome) -->
+    <link rel="manifest" href="img/favicon_ti/manifest.json">
+
+    <!-- demo styles -->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <!-- menu styles -->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr-custom.js"></script>
+
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="bp-header cf">
+            <div class="dummy-logo">
+                <img class="dummy-logo" src="img/logow.png" alt="tiAssist">
+            </div>
+            <div class="bp-header__main">
+                <span class="bp-header__present">tiAssist </span>
+                <h1 class="bp-header__title" style="margin-right: -5px;">3rd Year</h1>
+                <nav class="bp-nav" style="margin-right: -12px;">
+                    <a class="bp-nav__item bp-icon bp-icon--prev" href="2ndyear.html" data-info="Previous Year"><span>Previous Year</span></a>
+                    <!--a class="bp-nav__item bp-icon bp-icon--next" href="" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+                    <a class="bp-nav__item bp-icon bp-icon--drop" href="index.html" data-info="Home"><span>Home</span></a>
+                    <a class="bp-nav__item bp-icon bp-icon--archive" href="contribute.html" data-info="Contribute"><span>Contribute</span></a>
+                </nav>
+            </div>
+        </header>
+        <button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+        <nav id="ml-menu" class="menu">
+            <button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+            <div class="menu__wrap">
+                <ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">BioTechnology</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">Computer Engineering</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-3" aria-owns="submenu-3" href="#">Electronics &amp; Communication</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4" aria-owns="submenu-4" href="#">Electronics &amp; Computer</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-5" aria-owns="submenu-5" href="#">Mechanical</a></li>
+                </ul>
+                <!-- Submenu 1 -->
+                <ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="BioTechnology">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Animal Biology</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Biosensors</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">BioStats &amp; BioInfo</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Bio Process Engineering</a></li>
+                    <!--li class="menu__item" role="menuitem"><a class="menu__link" href="#">Downstream</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Humanities</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Medical BioTech</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Pharma</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Protein Elective</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Stem Cell</a></li-->
+                </ul>
+                <!-- Submenu 2 -->
+                <ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="Computer Engineering">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Artificial Intelligence</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer Architecture &amp; Organisation</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Design &amp; Analysis of Algorithms</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Embedded Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Image Processing</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Innovation &amp; Entrepreneurship</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Microprocessors</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Professional Practices</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Software Engineering</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Theory of Computation</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2-1" aria-owns="submenu-2-1" href="#">Core Electives</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2-2" aria-owns="submenu-2-2" href="#">General Electives</a></li>
+                </ul>
+                <!-- Submenu 2-1 -->
+                <ul data-menu="submenu-2-1" id="submenu-2-1" class="menu__level" tabindex="-1" role="menu" aria-label="Core Electives">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer &amp; Animation</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Cyber Security</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Data Science</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Dev Ops</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Financial Derivatives</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mathematics &amp; Computing</a></li>
+                </ul>
+                <!-- Submenu 2-2 -->
+                <ul data-menu="submenu-2-2" id="submenu-2-2" class="menu__level" tabindex="-1" role="menu" aria-label="General Electives">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Graph Theory</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Cyber Security</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Corporate Finance</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Employbility Development Skills</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Introduction to French</a></li>
+                </ul>
+                <!-- Submenu 3 -->
+                <ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="Electronics &amp; Communication">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Analog Communication Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer Architecture</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Digital Signal Processing</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">MOS Circuit Design</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Operating Systems</a></li>
+                </ul>
+                <!-- Submenu 4 -->
+                <ul data-menu="submenu-4" id="submenu-4" class="menu__level" tabindex="-1" role="menu" aria-label="Electronics &amp; Computers">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Analog Communication Systems</a></li>
+                    <!--li class="menu__item" role="menuitem"><a class="menu__link" href="#">Communication &amp; Computer Networks</a></li-->
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer Architecture</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Database Management Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Data Communication &amp; Computer Networks</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Data Structures &amp; Algorithms</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Digital Communication</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Digital Signal Processing</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Image Processing &amp; Computer Vision</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Innovation &amp; Entrepreneurship</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Machine Learning</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">MOS Circuit Design</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Operating Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Software Engineering</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4-1" aria-owns="submenu-4-1" href="#">General Electives</a></li>
+                </ul>
+                <!-- Submenu 4-1 -->
+                <ul data-menu="submenu-4-1" id="submenu-4-1" class="menu__level" tabindex="-1" role="menu" aria-label="Genral Electives">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Graph Theory</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Cyber Security</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Corporate Finance</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Employbility Development Skills</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Introduction to French</a></li>
+                </ul>
+                <!-- Submenu 5 -->
+                <ul data-menu="submenu-5" id="submenu-5" class="menu__level" tabindex="-1" role="menu" aria-label="Mechanical">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Innovation &amp; Entrepreneurship</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Technology</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content">
+            <p class="info">Please choose Branch > Subject from the side menu</p>
+            <!-- Ajax loaded content here -->
+        </div>
+    </div>
+    <!-- /view -->
+    <script src="js/classie.js"></script>
+    <script src="js/data3.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        (function() {
+            var menuEl = document.getElementById('ml-menu'),
+                mlmenu = new MLMenu(menuEl, {
+                    // breadcrumbsCtrl : true, // show breadcrumbs
+                    // initialBreadcrumb : 'all', // initial breadcrumb text
+                    backCtrl: false, // show back button
+                    // itemsDelayInterval : 60, // delay between each menu item sliding animation
+                    onItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+                });
+
+            // mobile menu toggle
+            var openMenuCtrl = document.querySelector('.action--open'),
+                closeMenuCtrl = document.querySelector('.action--close');
+
+            openMenuCtrl.addEventListener('click', openMenu);
+            closeMenuCtrl.addEventListener('click', closeMenu);
+
+            function openMenu() {
+                classie.add(menuEl, 'menu--open');
+                closeMenuCtrl.focus();
+            }
+
+            function closeMenu() {
+                classie.remove(menuEl, 'menu--open');
+                openMenuCtrl.focus();
+            }
+
+            // simulate grid content loading
+            var gridWrapper = document.querySelector('.content');
+
+            function loadDummyData(ev, itemName) {
+                ev.preventDefault();
+
+                closeMenu();
+                gridWrapper.innerHTML = '';
+                classie.add(gridWrapper, 'content--loading');
+                setTimeout(function() {
+                    classie.remove(gridWrapper, 'content--loading');
+                    dummyData[itemName] = dummyData[itemName] == undefined ? "study material coming soon" : dummyData[itemName];
+                    gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+                }, 700);
+            }
+        })();
+    </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.1.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.1.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>

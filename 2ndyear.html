@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiAssist - 2nd Year</title>
+    <meta name="description" content="3rd Year Study Resources" />
+    <meta name="keywords" content="html, css, menu, responsive, mobile-friendly" />
+    <meta name="author" content="Purnima Lal" />
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="img/favicon_ti/favicon-16x16.png" type="image/x-icon" sizes="16x16" />
+    <link rel="shortcut icon" href="img/favicon_ti/favicon-32x32.png" type="image/x-icon" sizes="32x32" />
+    <!-- iOS 7 or prior (legacy) -->
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon_ti/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon_ti/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon_ti/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon_ti/apple-touch-icon-57x57.png"> t
+    <!-- iOS 8 and later -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_ti/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon_ti/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon_ti/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon_ti/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon_ti/apple-touch-icon-60x60.png">
+    <!-- launcher (Android/Chrome) -->
+    <link rel="manifest" href="img/favicon_ti/manifest.json">
+
+    <!-- demo styles -->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <!-- menu styles -->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr-custom.js"></script>
+
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="bp-header cf">
+            <div class="dummy-logo">
+                <img class="dummy-logo" src="img/logow.png" alt="tiAssist">
+            </div>
+            <div class="bp-header__main">
+                <span class="bp-header__present">tiAssist </span>
+                <h1 class="bp-header__title" style="margin-right: -5px">2nd Year</h1>
+                <nav class="bp-nav" style="margin-right: -12px" ;>
+                    <a class="bp-nav__item bp-icon bp-icon--prev" href="1styear.html" data-info="Previous Year"><span>Previous Year</span></a>
+                    <a class="bp-nav__item bp-icon bp-icon--next" href="3rdyear.html" data-info="Next Year"><span>Next Year</span></a>
+                    <a class="bp-nav__item bp-icon bp-icon--drop" href="index.html" data-info="Home"><span>Home</span></a>
+                    <a class="bp-nav__item bp-icon bp-icon--archive" href="contribute.html" data-info="Contribute"><span>Contribute</span></a>
+                </nav>
+            </div>
+        </header>
+        <button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+        <nav id="ml-menu" class="menu">
+            <button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+            <div class="menu__wrap">
+                <ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="All">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Biotechnology</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2" aria-owns="submenu-2" href="#">Chemical</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-3" aria-owns="submenu-3" href="#">Civil</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-4" aria-owns="submenu-4" href="#">Computer Engineering </a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-5" aria-owns="submenu-5" href="#">Electrical</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-6" aria-owns="submenu-6" href="#">Electronics &amp; Communication</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-7" aria-owns="submenu-7" href="#">Electronics &amp; Computer</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-8" aria-owns="submenu-8" href="#">Electronics &amp; Instrumentation</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-9" aria-owns="submenu-9" href="#">Mechanical</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-10" aria-owns="submenu-10" href="#">Mechatronics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-11" aria-owns="submenu-11" href="#">Production</a></li>
+                </ul>
+                <!-- Submenu 4 -->
+                <ul data-menu="submenu-4" id="submenu-4" class="menu__level" tabindex="-1" role="menu" aria-label="Computer Engineering">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer Networks</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Database Management System</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Data Structures &amp; Algorithms</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Discrete Mathematical Structures</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design I</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Inventions &amp; Innovations In Computing</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Measurement Science &amp; Techniques</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Operating Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Techniques</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Probability &amp; Statistics</a></li>
+                </ul>
+                <!-- Submenu 2 -->
+                <ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="Chemical">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Chemical Engineering Thermodynamics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Chemical Process Industries</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design I</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Fluid Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Fluid and Particle Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Heat Transfer</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Material &amp; Energy Balances</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Techniques</a></li>
+                    <!--li class="menu__item" role="menuitem"><a class="menu__link" href="#">Software Engineering</a></li-->
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Solids &amp; Structures</a></li>
+                </ul>
+                <!-- Submenu 5 -->
+                <ul data-menu="submenu-5" id="submenu-5" class="menu__level" tabindex="-1" role="menu" aria-label="Electrical">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Analog &amp; Digital Electronics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">DC Machines &amp; Transformers</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Electromagnets</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Flud Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Network Theory &amp; Design</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Power System Practices</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Solids &amp; Structures</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Transmission &amp; Distribution of Power</a></li>
+                </ul>
+
+                <!-- Submenu 3 -->
+                <ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="Civil">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Architectural Drawing &amp; Building Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Architectural Drawing &amp; Building Construction</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Design of Concrete Structures</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Fluid Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Solids &amp; Structures</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Structure Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Surveying</a></lin>
+                </ul>
+
+                <!-- Submenu 6 -->
+                <ul data-menu="submenu-6" id="submenu-6" class="menu__level" tabindex="-1" role="menu" aria-label="Electronics &amp; Communication">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Analog Electronic Circuits</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Circuit Analysis &amp; Synthesis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Digital System Design </a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Electromagnetic Field Theory &amp; Transmission Lines</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Embedded Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Probability &amp; Information theory</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Signals &amp; Systems</a></li>
+                </ul>
+                <!-- Submenu 11 -->
+                <ul data-menu="submenu-11" id="submenu-11" class="menu__level" tabindex="-1" role="menu" aria-label="Production">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer-aided Design &amp; Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Fluid Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Industrial Automation</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mechanics of Machines</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Machine Design I</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mechatronics </a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Solids &amp; Structures</a></li>
+                </ul>
+                <!-- Submenu 1 -->
+                <ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Biotechnology">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Bioanalytical Techniques</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Biochemistry II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Biophysics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Biosafety, Bioethics and IPR</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Energy &amp; Environment</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Food Science</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Genetic &amp; Metabolic Engineering</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Immunotechnology</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Industrial Biotechnology</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Material &amp; Energy Balance</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Molecular Biology</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Unit Operations</a></li>
+                </ul>
+                <!--Submenu 9-->
+                <ul data-menu="submenu-9" id="submenu-9" class="menu__level" tabindex="-1" role="menu" aria-label="Mechanical">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer-aided Design &amp; Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Fluid Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Industrial Automation</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mechanics of Machines</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Machine Design I</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mechatronics </a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Solids &amp; Structures</a></li>
+                </ul>
+                <!--Submenu 10-->
+                <ul data-menu="submenu-10" id="submenu-10" class="menu__level" tabindex="-1" role="menu" aria-label="Mechatronics">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Computer-aided Design &amp; Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Fluid Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Industrial Engineering</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Mechanics of Machines</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Machine Design I</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Signals &amp; Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Solids &amp; Structures</a></li>
+                </ul>
+                <!-- Submenu 7-->
+                <ul data-menu="submenu-7" id="submenu-7" class="menu__level" tabindex="-1" role="menu" aria-label="Electronics &amp; Computer">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Analog Electronic Circuits</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Circuit Analysis &amp; Synthesis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Digital System Design </a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design I</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Probability &amp; Information theory</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Signals &amp; Systems</a></li>
+                </ul>
+                <!--Submenu 8-->
+                <ul data-menu="submenu-8" id="submenu-8" class="menu__level" tabindex="-1" role="menu" aria-label="Electronics &amp; Instrumentation">
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Analog Devices &amp; Circuits</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Data Structures &amp; Algorithms</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Digital Signal Processing &amp; Applications</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Electrical &amp; Electronic Measurement</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Design II</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Fluid Mechanics</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Engineering Materials</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Manufacturing Processes</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Network Analysis &amp; Synthesis</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Numerical Analysis </a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Optimization Methods</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Signals &amp; Systems</a></li>
+                    <li class="menu__item" role="menuitem"><a class="menu__link" href="#">Solids &amp; Structures</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="content">
+            <p class="info">Please choose Branch > Subject from the side menu</p>
+            <!-- Ajax loaded content here -->
+        </div>
+    </div>
+    <!-- /view -->
+    <script src="js/classie.js"></script>
+    <script src="js/data2.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        (function() {
+            var menuEl = document.getElementById('ml-menu'),
+                mlmenu = new MLMenu(menuEl, {
+                    // breadcrumbsCtrl : true, // show breadcrumbs
+                    // initialBreadcrumb : 'all', // initial breadcrumb text
+                    backCtrl: false, // show back button
+                    // itemsDelayInterval : 60, // delay between each menu item sliding animation
+                    onItemClick: loadDummyData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+                });
+
+            // mobile menu toggle
+            var openMenuCtrl = document.querySelector('.action--open'),
+                closeMenuCtrl = document.querySelector('.action--close');
+
+            openMenuCtrl.addEventListener('click', openMenu);
+            closeMenuCtrl.addEventListener('click', closeMenu);
+
+            function openMenu() {
+                classie.add(menuEl, 'menu--open');
+                closeMenuCtrl.focus();
+            }
+
+            function closeMenu() {
+                classie.remove(menuEl, 'menu--open');
+                openMenuCtrl.focus();
+            }
+
+            // simulate grid content loading
+            var gridWrapper = document.querySelector('.content');
+
+            function loadDummyData(ev, itemName) {
+                ev.preventDefault();
+
+                closeMenu();
+                gridWrapper.innerHTML = '';
+                classie.add(gridWrapper, 'content--loading');
+                setTimeout(function() {
+                    classie.remove(gridWrapper, 'content--loading');
+                    dummyData[itemName] = dummyData[itemName] == undefined ? "study material coming soon" : dummyData[itemName];
+                    gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+                }, 700);
+            }
+        })();
+    </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.1.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.1.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
